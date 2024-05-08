@@ -1,6 +1,8 @@
 import Landing from './components/Landing';
 import About from './components/About';
-import './App.css';
+import './styles/styles.css';
+import './styles/landing.css';
+import './styles/about.css';
 
 function App() {
 

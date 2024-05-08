@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .landing {
   min-width: 100vw;
   min-height: 100vh;
@@ -21,13 +15,13 @@
 }
 
 .landing-sun {
-  width: 150px;
-  height: 150px;
+  width: 275px;
+  height: 275px;
   background: hsl(54, 100%, 50%);
   border-radius: 50%;
   position: absolute;
   top: 40%;
-  left: 52%;
+  left: 43%;
 }
 
 .landing-layer {
@@ -35,14 +29,4 @@
   min-height: 100vh;
   position: relative;
   z-index: 999;
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-  background-color: red;
-  min-width: 100vw;
-  min-height: 100vh;
 }

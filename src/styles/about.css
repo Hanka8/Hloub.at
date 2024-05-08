@@ -1,0 +1,9 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: red;
+    min-width: 100vw;
+    min-height: 100vh;
+}
