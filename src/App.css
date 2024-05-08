@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+
+.landing-wall {
+    min-width: 100vw;
+    min-height: 300vh;
+    background-image: url("./public/bg.webp");
+    background-size: contain;
+    background-repeat: repeat;
+    position: absolute;
+}
+
+.landing-sun {
+  width: 150px;
+  height: 150px;
+  background: hsl(54, 100%, 50%);
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 52%;
+}
+
+.landing-layer {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  z-index: 999;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: red;
+  min-width: 100vw;
+  min-height: 100vh;
+}
