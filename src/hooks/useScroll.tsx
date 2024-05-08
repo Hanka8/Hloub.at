@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useScroll = (throttleMs: number = 10): number => {
+const useScroll = (throttleMs: number = 0): number => {
     const [scrollY, setScrollY] = useState<number>(0);
 
     useEffect(() => {

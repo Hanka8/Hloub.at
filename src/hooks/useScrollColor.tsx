@@ -11,7 +11,7 @@ const useScrollColor = (
     const calculateColorValue = useMemo(() => {
         const valuesRange = finalColorValue - initialColorValue;
         return () => {
-            const scrollProgress = Math.min(scrollY / 500, 1);
+            const scrollProgress = Math.min(scrollY / 900, 1);
             return initialColorValue + valuesRange * scrollProgress * speedOfColorChange;
         };
     }, [scrollY, initialColorValue, finalColorValue, speedOfColorChange]);

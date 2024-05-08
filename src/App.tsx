@@ -4,6 +4,8 @@ import './styles/styles.css';
 import './styles/landing.css';
 import './styles/about.css';
 
+import useScroll from './hooks/useScroll';
+
 function App() {
 
   return (
