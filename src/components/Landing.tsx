@@ -10,11 +10,7 @@ function Landing(): JSX.Element {
     const scrollY = useScroll();
  
     return (
-        <main className="landing"
-         style={{
-   
-         }}
-            >
+        <main className="landing">
             <div 
               className="landing-wall"
               style={{
@@ -32,10 +28,24 @@ function Landing(): JSX.Element {
             <div 
               className="landing-layer"
               style={{
-                top: scrollY < window.innerHeight ? 0 : 'auto',
+                top: scrollY < window.innerHeight ? '0' : '-100%',
+                transition: scrollY < window.innerHeight ? 'none' : 'top 0.5s',
                 background: `no-repeat center bottom/contain url("./layer.svg"), radial-gradient(circle, hsla(11, ${currentLayerSaturation}%, 40%, 0.6) 10%, hsla(191, 23%, 64%, 0.5) 100%)`,
               }}
               >
+               <div className='top-bar'>
+                  <button className='logo'></button>
+                  <a className='login'>Log in</a>
+               </div>
+               <h1>Hloub.at</h1>
+               <nav>
+                  <ul>
+                    <li><a>O mně</a></li>
+                    <li><a>Meditace</a></li>
+                    <li><a>Partneři projektu</a></li>
+                    <li><a>Kontakt</a></li>
+                  </ul>
+                </nav>
               </div>
         </main>
     );

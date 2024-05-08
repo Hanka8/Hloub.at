@@ -3,7 +3,19 @@
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    background-color: red;
+    background-color: #D8F8FF;
     min-width: 100vw;
     min-height: 100vh;
+}
+
+.about h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzZ5ZHZ0Z3A3ajNnNWo0N2RzYzJoNGEyMW16bGZkY2VlM2o5b3lwZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3vRnoppYtfEbemBO/giphy.gif');
+    background-clip: text;
 }

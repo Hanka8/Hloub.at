@@ -1,3 +1,18 @@
+.landing * {
+  color: #D8F8FF;
+}
+
+.landing h1,
+a {
+  filter: drop-shadow(1px 3px 1px hsl(0, 0%, 0%, 0.25));
+}
+
+.landing h1 {
+  font-size: calc(64rem / 16);
+  font-weight: 700;
+  margin-left: 24%;
+}
+
 .landing {
   min-width: 100vw;
   min-height: 100vh;
@@ -7,7 +22,7 @@
 .landing-wall {
     min-width: 100vw;
     min-height: 200vh;
-    background-image: url("./public/bg.webp");
+    background-image: url("./bg.webp");
     background-size: contain;
     background-repeat: repeat;
     position: absolute;
@@ -27,4 +42,72 @@
   min-height: 100vh;
   position: fixed;
   z-index: 999;
+}
+
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 54px 81px;
+}
+
+.logo {
+  position: relative;
+  width: calc(73rem / 16);
+  height: calc(77rem / 16);
+  background-image: url("./logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./logo-hover.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover::before {
+  opacity: 1;
+}
+
+.logo:active {
+  transform: scale(0.95);
+}
+
+.login {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.login:hover {
+  text-decoration: underline;
+}
+
+.landing nav {
+  font-size: 2rem;
+  margin-left: 81px;
+  margin-top: 180px;
+  width: fit-content;
+}
+
+.landing nav li {
+  margin-bottom: calc(18rem / 16);
+  cursor: pointer;
+}
+
+.landing nav li:hover {
+  text-decoration: underline;
 }

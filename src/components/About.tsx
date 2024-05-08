@@ -9,8 +9,7 @@ function About():JSX.Element {
             
         >
         <div className="about-wrap">
-            <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A commodi hic temporibus adipisci incidunt distinctio, ipsa possimus sequi asperiores dicta nam pariatur quos corrupti iste, illo impedit dolorum similique porro?</p>
+            <h1>další sekce</h1>
         </div>
         </main>
     )
