@@ -1,8 +1,4 @@
-import useScroll from "../hooks/useScroll";
-
 function About():JSX.Element {
-
-    const scroll = useScroll();
 
     return (
         <main className="about"

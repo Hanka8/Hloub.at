@@ -1,6 +1,5 @@
 import useScrollColor from '../hooks/useScrollColor';
 import useScroll from '../hooks/useScroll';
-import { useState, useEffect } from 'react';
 
 function Landing(): JSX.Element {
     
