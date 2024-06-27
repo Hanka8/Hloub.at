@@ -1,0 +1,16 @@
+@import "../variables.css";
+
+.quote {
+    background: url("../bg-orange.png");
+    background-size: cover;
+    padding-left: var(--marginLeft);
+    padding-top: 137px;
+    padding-bottom: 137px;
+    font-size: 64px;
+    color: var(--fontColor);
+    mix-blend-mode: pass-through;
+}
+
+.quote p:first-child {
+    margin-bottom: 1.5rem;
+}

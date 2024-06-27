@@ -1,17 +1,24 @@
 import Landing from './components/Landing';
-import About from './components/About';
+import Quote from './components/Quote';
+import Meditace from './components/Meditace';
+import SeznamAkci from './components/SeznamAkci';
+import Omne from './components/Omne';
 import './styles/styles.css';
-import './styles/landing.css';
-import './styles/about.css';
 
 function App() {
 
   return (
     <>
-      <Landing />
-      <About />
+      <div className='page-container'>
+        <Landing />
+        <Quote />
+        <Meditace />
+        <SeznamAkci />
+        <Omne />
+        <Quote />
+      </div>
     </>
-  )
+  );
 }
 
 export default App;

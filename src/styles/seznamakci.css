@@ -1,0 +1,10 @@
+
+.seznam-akci * {
+    margin-left: var(--marginLeft);
+}
+.seznam-akci {
+    background: var(--orangeWallBackground);
+    color: var(--fontColor);
+    padding-top: 84px;
+    padding-bottom: 84px;
+}

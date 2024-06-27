@@ -1,0 +1,9 @@
+:root {
+    --maxPageWidth: 1300px;
+    --marginLeft: 129px;
+    --fontColor: white;
+
+    --wallBackground: url("../bg.webp");
+    --orangeWallBackground: url("../bg-orange.png");
+    --blueWallBackground: url("../bg-blue.png");
+}

@@ -1,0 +1,10 @@
+.omne * {
+    margin-left: var(--marginLeft);
+}
+
+.omne {
+    background: var(--blueWallBackground);
+    color: var(--fontColor);
+    padding-top: 84px;
+    padding-bottom: 84px;
+}

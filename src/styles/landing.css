@@ -1,3 +1,5 @@
+@import "../variables.css";
+
 .landing * {
   color: #D8F8FF;
 }
@@ -7,30 +9,24 @@ a {
   filter: drop-shadow(1px 3px 1px hsl(0, 0%, 0%, 0.25));
 }
 
-.landing h1 {
-  font-size: calc(64rem / 16);
-  font-weight: 700;
-  margin-left: 24%;
-}
-
 .landing {
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   position: relative;
 }
 
 .landing-wall {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 200vh;
-    background-image: url("../bg.webp");
+    background-image: var(--wallBackground);
     background-size: contain;
     background-repeat: repeat;
     position: absolute;
 }
 
 .landing-sun {
-  width: 19vw;
-  height: 19vw;
+  width: 19%;
+  aspect-ratio: 1;
   border-radius: 50%;
   position: absolute;
   top: 40%;
@@ -38,7 +34,8 @@ a {
 }
 
 .landing-layer {
-  min-width: 100vw;
+  width: 100%;
+  max-width: var(--maxPageWidth);
   min-height: 100vh;
   position: fixed;
   z-index: 999;
@@ -49,7 +46,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 54px 81px;
+  padding: 26px 49px 0 49px;
+}
+
+.top-bar__minicontainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .logo {
@@ -96,15 +99,22 @@ a {
   text-decoration: underline;
 }
 
+.landing h1 {
+  font-size: calc(110rem / 16);
+  font-weight: 700;
+  margin-left: var(--marginLeft);
+  margin-top: 8%;
+  text-transform: uppercase;
+}
+
 .landing nav {
+  margin-top: 8%;
   font-size: 2rem;
-  margin-left: 81px;
-  margin-top: 180px;
+  margin-left: var(--marginLeft);
   width: fit-content;
 }
 
 .landing nav li {
-  margin-bottom: calc(18rem / 16);
   cursor: pointer;
 }
 

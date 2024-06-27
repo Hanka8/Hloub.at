@@ -1,10 +1,36 @@
+@import "../variables.css";
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 li {
-    list-style: none;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.page-container {
+  max-width: var(--maxPageWidth);
+  margin: auto;
+}
+
+.h1 {
+  font-size: calc(96rem / 16);
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--fontColor);
 }
