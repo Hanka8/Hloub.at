@@ -3,6 +3,7 @@ import Quote from './components/Quote';
 import Meditace from './components/Meditace';
 import SeznamAkci from './components/SeznamAkci';
 import Omne from './components/Omne';
+import Kontakt from './components/Kontakt';
 import './styles/styles.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <SeznamAkci />
         <Omne />
         <Quote />
+        <Kontakt />
       </div>
     </>
   );

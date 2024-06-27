@@ -55,13 +55,13 @@ function Landing(): JSX.Element {
               <a href="#meditace">Meditace</a>
             </li>
             <li>
-              <a href="akce">Seznam akcí</a>
+              <a href="#akce">Seznam akcí</a>
             </li>
             <li>
-              <a href="omne">O mně</a>
+              <a href="#omne">O mně</a>
             </li>
             <li>
-              <a href="kontakt">Kontakt</a>
+              <a href="#kontakt">Kontakt</a>
             </li>
           </ul>
         </nav>
