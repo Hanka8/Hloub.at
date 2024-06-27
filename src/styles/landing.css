@@ -9,6 +9,13 @@ a {
   filter: drop-shadow(1px 3px 1px hsl(0, 0%, 0%, 0.25));
 }
 
+.landing a {
+  text-decoration: none;
+}
+
+.landing a:hover {
+  text-decoration: underline;
+}
 
 .landing {
   min-width: 100%;
